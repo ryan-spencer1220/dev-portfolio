@@ -27,11 +27,17 @@ This application was designed to create, read, update, and delete kegs for a fic
 React Portfolio Website | Build and Deploy | Responsive Portfolio Website Tutorial for Beginners
 https://www.youtube.com/watch?v=hQjlM-8C4Ps&t=75s&ab_channel=LamaDev
 
+React Project Tutorial – Build a Portfolio Website w/ Advanced Animations
+https://www.youtube.com/watch?v=bmpI252DmiI&ab_channel=freeCodeCamp.org
+
 #### General React Tutorials
 
 #### Styling Tutorials
 
 #### General UI/Design/Portfolio Advice Resources
+
+Software Developer Portfolio Reviews | One of the most creative developer portfolios I’ve ever seen
+https://www.youtube.com/watch?v=abkkoIaPO2s&ab_channel=DarianSampare
 
 ## Setup/Installation Requirements
 
