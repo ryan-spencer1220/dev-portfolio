@@ -20,6 +20,19 @@
 
 This application was designed to create, read, update, and delete kegs for a fictional taproom. Users can view specific beer details, add/updated/delete beers, and update keg volume by subtracting one pint at a time. Components can be seen outlined below, TapControl.js is the only class component responsible for state, all other components are function components.
 
+## Resources
+
+#### Portfolio Site Tutorials
+
+React Portfolio Website | Build and Deploy | Responsive Portfolio Website Tutorial for Beginners
+https://www.youtube.com/watch?v=hQjlM-8C4Ps&t=75s&ab_channel=LamaDev
+
+#### General React Tutorials
+
+#### Styling Tutorials
+
+#### General UI/Design/Portfolio Advice Resources
+
 ## Setup/Installation Requirements
 
 **Cloning**
