@@ -33,6 +33,9 @@ https://www.youtube.com/watch?v=bmpI252DmiI&ab_channel=freeCodeCamp.org
 Build and Deploy THE PERFECT Portfolio Website | Create a Portfolio from Scratch
 https://www.youtube.com/watch?v=OPaLnMw2i_0&ab_channel=JavaScriptMastery
 
+Build & Deploy a Personal Portfolio with TailwindCSS - 2022 Edition
+https://www.youtube.com/watch?v=Vp6GC3jKG20&t=844s&ab_channel=DesignCourse
+
 #### General React Tutorials
 
 Learn The MERN Stack - Express & MongoDB Rest API
