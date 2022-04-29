@@ -30,9 +30,21 @@ https://www.youtube.com/watch?v=hQjlM-8C4Ps&t=75s&ab_channel=LamaDev
 React Project Tutorial – Build a Portfolio Website w/ Advanced Animations
 https://www.youtube.com/watch?v=bmpI252DmiI&ab_channel=freeCodeCamp.org
 
+Build and Deploy THE PERFECT Portfolio Website | Create a Portfolio from Scratch
+https://www.youtube.com/watch?v=OPaLnMw2i_0&ab_channel=JavaScriptMastery
+
 #### General React Tutorials
 
+Learn The MERN Stack - Express & MongoDB Rest API
+https://www.youtube.com/watch?v=-0exw-9YJBo&list=PLillGF-RfqbbQeVSccR9PGKHzPJSWqcsm&ab_channel=TraversyMedia
+
 #### Styling Tutorials
+
+Smooth Loading Transitions with Framer Motion | AnimateSharedLayout (Framer Motion)
+https://www.youtube.com/watch?v=BtsVMvds3P0&ab_channel=WrongAkram
+
+Awesome Filtering Animation with React Tutorial (Framer Motion)
+https://www.youtube.com/watch?v=nyg5Lpl6AiM&ab_channel=DevEd
 
 #### General UI/Design/Portfolio Advice Resources
 
