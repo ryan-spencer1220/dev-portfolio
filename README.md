@@ -18,8 +18,6 @@
 
 ## Description
 
-This application was designed to create, read, update, and delete kegs for a fictional taproom. Users can view specific beer details, add/updated/delete beers, and update keg volume by subtracting one pint at a time. Components can be seen outlined below, TapControl.js is the only class component responsible for state, all other components are function components.
-
 ## Resources
 
 #### Portfolio Site Tutorials
@@ -116,7 +114,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Known Bugs
 
-- Seed data in JSON server is not loading
+- No known bugs
 
 ### License
 
