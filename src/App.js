@@ -1,7 +1,7 @@
 import "./index";
 // import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
-import Intro from "./components/Intro";
+import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
@@ -13,7 +13,7 @@ function App() {
     <>
       {/* <Sidebar /> */}
       <Header />
-      <Intro />
+      <Hero />
       <About />
       <Technologies />
       <Projects />
