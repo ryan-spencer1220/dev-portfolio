@@ -12,7 +12,7 @@ function Header() {
           <span className="block w-8 h-0.5 bg-gray-600"></span>
           <span className="block w-8 h-0.5 bg-gray-600"></span>
         </div>
-        <div className="font-bold text-2xl cursor-pointer font-[Poppins] text-gray-800">
+        <div className="font-bold text-2xl ml-28 cursor-pointer font-[Poppins] text-gray-800">
           Ryan Spencer
         </div>
         <Button>Contact</Button>

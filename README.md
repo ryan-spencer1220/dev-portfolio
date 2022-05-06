@@ -1,4 +1,4 @@
-# Epicodus Taproom
+# Developer Portfolio Page
 
 #### Personal portfolio site designed to fulfill Epicodus capstone requirements
 
@@ -9,7 +9,8 @@
 - React
 - JavaScript
 - PHP
-- Tailwind? Material UI?
+- Tailwind CSS
+- Material UI
 - VS Code
 - Git
 - HTML
