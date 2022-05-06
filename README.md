@@ -34,6 +34,9 @@ https://www.youtube.com/watch?v=OPaLnMw2i_0&ab_channel=JavaScriptMastery
 Build & Deploy a Personal Portfolio with TailwindCSS - 2022 Edition
 https://www.youtube.com/watch?v=Vp6GC3jKG20&t=844s&ab_channel=DesignCourse
 
+Build a Portfolio Website & Deploy
+https://www.youtube.com/watch?v=r_hYR53r61M&ab_channel=TraversyMedia
+
 #### General React Tutorials
 
 Learn The MERN Stack - Express & MongoDB Rest API
