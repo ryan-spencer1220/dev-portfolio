@@ -22,7 +22,7 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <div className="bg-red-600 w-full md:w-1/2">
+        <div className="hero-image w-full md:w-1/2 rounded">
           <img
             src="https://wallpaperaccess.com/full/109538.jpg"
             className="h-screen w-full"
