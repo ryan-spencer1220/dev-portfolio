@@ -1,5 +1,5 @@
 import "./index";
-import Sidebar from "./components/Sidebar";
+// import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import About from "./components/About";
@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Header />
       <Intro />
       <About />
