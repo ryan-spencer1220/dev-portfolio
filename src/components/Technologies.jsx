@@ -1,4 +1,10 @@
 import React from "react";
+import javascriptLogo from "../assets/javascript.png";
+import mongoLogo from "../assets/mongodb.png";
+import csharpLogo from "../assets/csharp.png";
+import mysqlLogo from "../assets/mysql.png";
+import nodeLogo from "../assets/node-js.png";
+import reactLogo from "../assets/react.png";
 
 const Technologies = () => {
   return (
@@ -12,14 +18,38 @@ const Technologies = () => {
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                  <figure>
+                    <img
+                      src={reactLogo}
+                      alt="React Logo"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   React
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                  <figure>
+                    <img
+                      src={csharpLogo}
+                      alt="C# Logo"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   C#
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                  <figure>
+                    <img
+                      src={nodeLogo}
+                      alt="JavaScript Logo"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   Node.js
                 </div>
               </div>
@@ -28,14 +58,38 @@ const Technologies = () => {
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                  <figure>
+                    <img
+                      src={javascriptLogo}
+                      alt="JavaScript Logo"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   JavaScript
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                  <figure>
+                    <img
+                      src={mysqlLogo}
+                      alt="MySQL Logo"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   MySQL
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                  <figure>
+                    <img
+                      src={mongoLogo}
+                      alt="Mongo DB Logo"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   MongoDB
                 </div>
               </div>

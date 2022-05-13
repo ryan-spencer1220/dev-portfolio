@@ -11,8 +11,9 @@
 - PHP
 - Tailwind CSS
 - Material UI
+- Daisy UI
 - VS Code
-- Git
+- Git / GitHub
 - HTML
 - CSS
 - Markdown
