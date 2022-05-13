@@ -41,9 +41,9 @@ function Header() {
         <p className="btn btn-ghost normal-case text-xl">Ryan Spencer</p>
       </div>
       <div className="navbar-end">
-        <button className="btn">Contact</button>
-        <div className="dropdown dropdown-end">
-          <label tabindex="0" className="btn m-1">
+        <button className="btn btn-primary">Contact</button>
+        <div className="dropdown dropdown-end dropdown-secondary">
+          <label tabindex="0" className="btn btn-secondary m-1">
             Themes
           </label>
           <ul
