@@ -1,5 +1,4 @@
 import "./index";
-// import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -11,7 +10,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {/* <Sidebar /> */}
       <Header />
       <Hero />
       <About />

@@ -9,7 +9,7 @@ import reactLogo from "../assets/react.png";
 const Technologies = () => {
   return (
     <>
-      <div className="flex flex-wrap md items-center h-screen pt-18 bg-primary">
+      <div className="flex flex-wrap md items-center h-screen pt-18 bg-neutral-content">
         <div className="w-full h-screen">
           <div className="mx-32">
             <h1 className="text-6xl font-bold m-20 pt-18 text-center">

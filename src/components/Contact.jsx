@@ -6,13 +6,13 @@ import { Box, TextField } from "@mui/material";
 const Contact = () => {
   return (
     <>
-      <div className="flex flex-wrap md items-center h-screen pt-18 bg-primary">
+      <div className="items-center h-screen pt-18 bg-neutral-content">
         <div className="w-full h-screen">
           <div className="mx-32">
             <h1 className="text-6xl font-bold mt-40 pt-18 text-center">
               Contact
             </h1>
-            <div className="p-32 text-center">
+            <div className="p-32 text-center item-center text-center">
               <Box
                 component="form"
                 sx={{
@@ -21,27 +21,19 @@ const Contact = () => {
                 noValidate
                 autoComplete="off"
               >
+                <TextField id="filled-basic" label="Name" variant="filled" />
+                <TextField id="filled-basic" label="Email" variant="filled" />
                 <TextField
-                  id="outlined-basic"
-                  label="Name"
-                  variant="outlined"
-                />
-                <TextField
-                  id="outlined-basic"
-                  label="Email"
-                  variant="outlined"
-                />
-                <TextField
-                  id="outlined-basic"
+                  id="filled-basic"
                   label="Phone Number"
-                  variant="outlined"
+                  variant="filled"
                 />
                 <TextField
-                  id="outlined-basic"
+                  id="filled-basic"
                   label="Message"
                   multiline
                   rows={6}
-                  variant="outlined"
+                  variant="filled"
                 />
               </Box>
               <div className="mt-16 font-light text-center items-center">
