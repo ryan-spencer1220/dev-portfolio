@@ -1,10 +1,10 @@
 import React from "react";
-import javascriptLogo from "../assets/javascript.png";
-import mongoLogo from "../assets/mongodb.png";
-import csharpLogo from "../assets/csharp.png";
-import mysqlLogo from "../assets/mysql.png";
-import nodeLogo from "../assets/node-js.png";
-import reactLogo from "../assets/react.png";
+import javascriptLogo from "../assets/technologies/javascript.png";
+import mongoLogo from "../assets/technologies/mongodb.png";
+import csharpLogo from "../assets/technologies/csharp.png";
+import mysqlLogo from "../assets/technologies/mysql.png";
+import nodeLogo from "../assets/technologies/node-js.png";
+import reactLogo from "../assets/technologies/react.png";
 
 const Technologies = () => {
   return (

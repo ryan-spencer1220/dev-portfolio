@@ -1,4 +1,11 @@
 import React from "react";
+import reactLogo from "../assets/technologies/react.png";
+import barChart from "../assets/projects/bar-chart.png";
+import goals from "../assets/projects/goal.png";
+import coding from "../assets/projects/web-development.png";
+import course from "../assets/projects/online-course.png";
+import beer from "../assets/projects/beer-mug.png";
+import quiz from "../assets/projects/quiz.png";
 
 const Projects = () => {
   return (
@@ -12,7 +19,9 @@ const Projects = () => {
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
-                  <figure></figure>
+                  <figure>
+                    <img src={goals} alt="Goal Logo" height={120} width={120} />
+                  </figure>
                   Goal Tracker Application
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
@@ -42,7 +51,14 @@ const Projects = () => {
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
-                  <figure></figure>
+                  <figure>
+                    <img
+                      src={barChart}
+                      alt="Graph Logo"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   Sorting Algorithm Visualizer
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
@@ -72,7 +88,14 @@ const Projects = () => {
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
-                  <figure></figure>
+                  <figure>
+                    <img
+                      src={coding}
+                      alt="Developer Logo"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   Developer Portfolio
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
@@ -106,7 +129,14 @@ const Projects = () => {
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
-                  <figure></figure>
+                  <figure>
+                    <img
+                      src={course}
+                      alt="Online Course"
+                      height={120}
+                      width={120}
+                    />
+                  </figure>
                   Learn To React
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
@@ -136,7 +166,9 @@ const Projects = () => {
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
-                  <figure></figure>
+                  <figure>
+                    <img src={beer} alt="Beer Mug" height={120} width={120} />
+                  </figure>
                   Epicodus Taproom
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
@@ -166,7 +198,9 @@ const Projects = () => {
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
                 <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
-                  <figure></figure>
+                  <figure>
+                    <img src={quiz} alt="Quiz" height={120} width={120} />
+                  </figure>
                   Programming Language Quiz
                   <label for="my-modal-3" className="btn modal-button">
                     View Project

@@ -12,7 +12,7 @@ const Contact = () => {
             <h1 className="text-6xl font-bold mt-40 pt-18 text-center">
               Contact
             </h1>
-            <div className="p-32 text-center item-center text-center">
+            <div className="p-32 item-center text-center">
               <Box
                 component="form"
                 sx={{
