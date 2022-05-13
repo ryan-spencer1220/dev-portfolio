@@ -45,7 +45,7 @@ const Contact = () => {
                 />
               </Box>
               <div className="mt-16 font-light text-gray-500 text-center items-center">
-                <Button>Projects</Button>
+                <Button>Contact</Button>
               </div>
             </div>
           </div>
