@@ -4,33 +4,15 @@ import "../index.css";
 
 const Intro = () => {
   return (
-    <>
-      <div className="flex flex-wrap md items-center h-screen pt-18">
-        <div className="bg-slate-100 w-full md:w-1/2 h-screen">
-          <div className="mx-32">
-            <h1 className="text-6xl font-bold mt-40 pt-48">Ryan</h1>
-            <h1 className="text-6xl font-bold mt-8">Spencer</h1>
-            <div className="flex mt-16 font-light text-gray-500">
-              <div className="pr-4">
-                <p className="text-2xl text-gray-900 font-semibold">
-                  Software Engineer | Portland, OR
-                </p>
-              </div>
-            </div>
-            <div className="flex mt-16 font-light text-gray-500 ml-20">
-              <Button>Projects</Button>
-            </div>
-          </div>
-        </div>
-        <div className="hero-image w-full md:w-1/2 rounded">
-          <img
-            src="https://wallpaperaccess.com/full/109538.jpg"
-            className="h-screen w-full"
-            alt=""
-          />
+    <div class="hero min-h-screen bg-neutral-content">
+      <div class="text-center">
+        <div class="max-w-md">
+          <h1 class="text-5xl font-bold text-accent">Ryan Spencer</h1>
+          <p class="py-6 text-accent">Software Engineer | Portland, Oregon</p>
+          <button class="btn btn-primary">Projects</button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

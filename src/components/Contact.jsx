@@ -6,8 +6,8 @@ import { Box, TextField } from "@mui/material";
 const Contact = () => {
   return (
     <>
-      <div className="flex flex-wrap md items-center h-screen pt-18">
-        <div className=" bg-slate-100 w-full h-screen">
+      <div className="flex flex-wrap md items-center h-screen pt-18 bg-primary">
+        <div className="w-full h-screen">
           <div className="mx-32">
             <h1 className="text-6xl font-bold mt-40 pt-18 text-center">
               Contact
@@ -44,7 +44,7 @@ const Contact = () => {
                   variant="outlined"
                 />
               </Box>
-              <div className="mt-16 font-light text-gray-500 text-center items-center">
+              <div className="mt-16 font-light text-center items-center">
                 <Button>Contact</Button>
               </div>
             </div>

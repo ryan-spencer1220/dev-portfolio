@@ -51,10 +51,16 @@ function Header() {
             className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <p>Item 1</p>
+              <p>Fantasy</p>
             </li>
             <li>
-              <p>Item 2</p>
+              <p>Dracula</p>
+            </li>
+            <li>
+              <p>Aqua</p>
+            </li>
+            <li>
+              <p>Synthwave</p>
             </li>
           </ul>
         </div>
