@@ -5,3 +5,25 @@
 body {
   font-family: Poppins;
 }
+
+.curved-div {
+  position: relative;
+  background: hsl(var(--p));
+  color: hsl(var(--b1));
+  text-align: center;
+  overflow: hidden;
+}
+.curved-div svg {
+  display: block;
+}
+.curved-div.upper {
+  background: hsl(var(--b1));
+}
+.curved-div h1 {
+  font-size: 6rem;
+  margin-top: 0rem;
+}
+.curved-div p {
+  font-size: 1rem;
+  margin: 0 5rem 0rem 5rem;
+}

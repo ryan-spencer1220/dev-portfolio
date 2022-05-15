@@ -1,6 +1,43 @@
 import "../index.css";
+import { useEffect } from "react";
+import { themeChange } from "theme-change";
 
-function Header() {
+function Header({ Component, pageProps }) {
+  const themeValues = [
+    "light",
+    "dark",
+    "cupcake",
+    "bumblebee",
+    "emerald",
+    "corporate",
+    "synthwave",
+    "retro",
+    "cyberpunk",
+    "valentine",
+    "halloween",
+    "garden",
+    "forest",
+    "aqua",
+    "lofi",
+    "pastel",
+    "fantasy",
+    "wireframe",
+    "black",
+    "luxury",
+    "dracula",
+    "cmyk",
+    "autumn",
+    "business",
+    "acid",
+    "lemonade",
+    "night",
+    "coffee",
+    "winter",
+  ];
+  useEffect(() => {
+    themeChange(false);
+  });
+
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -14,9 +51,9 @@ function Header() {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLineCap="round"
+                strokeLineJoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h16M4 18h7"
               />
             </svg>
@@ -43,26 +80,23 @@ function Header() {
       <div className="navbar-end">
         <button className="btn btn-primary">Contact</button>
         <div className="dropdown dropdown-end dropdown-secondary">
-          <label tabindex="0" className="btn btn-secondary m-1">
-            Themes
-          </label>
-          <ul
-            tabindex="0"
-            className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+          <select
+            className="text-primary btn btn-secondary m-1"
+            data-choose-theme
           >
-            <li>
-              <p>Fantasy</p>
-            </li>
-            <li>
-              <p>Dracula</p>
-            </li>
-            <li>
-              <p>Aqua</p>
-            </li>
-            <li>
-              <p>Synthwave</p>
-            </li>
-          </ul>
+            <option className="text-primary dropdown" option value="">
+              Themes
+            </option>
+            {themeValues.map((value) => (
+              <option
+                className="text-primary"
+                key={value.toLowerCase()}
+                value={value.toLowerCase()}
+              >
+                {value}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
     </div>
