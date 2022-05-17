@@ -79,7 +79,9 @@ const About = () => {
                         </IconContext.Provider>
                       </a>
                     </div>
-                    <div className="card-actions justify-end"></div>
+                    <button className="btn btn-secondary my-10">
+                      View Resume
+                    </button>
                   </div>
                 </div>
               </div>

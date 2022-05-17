@@ -18,7 +18,7 @@ function ChessResults() {
 
   return (
     <div className="stats shadow-2xl">
-      <div className="stat place-items-center">
+      {/* <div className="stat place-items-center">
         <div className="stat-title">Rapid Elo</div>
         <div className="stat-value">{users.chess_rapid.best.rating}</div>
         <div className="stat-desc">10 - 30 Min Rating</div>
@@ -44,7 +44,7 @@ function ChessResults() {
             users.chess_blitz.record.loss}
         </div>
         <div className="stat-desc">Since 2014</div>
-      </div>
+      </div> */}
     </div>
   );
 }
