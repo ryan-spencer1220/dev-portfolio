@@ -21,8 +21,8 @@ const Projects = () => {
                   <figure>
                     <img src={goals} alt="Goal Logo" height={120} width={120} />
                   </figure>
-                  <p class="text-xl font-bold">Goal Tracker Application</p>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold">Goal Tracker Application</p>
+                  <label htmlFor="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
                   <input
@@ -33,7 +33,7 @@ const Projects = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        htmlFor="my-modal-3"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -56,8 +56,10 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-xl font-bold">Sorting Algorithm Visualizer</p>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold">
+                    Sorting Algorithm Visualizer
+                  </p>
+                  <label htmlFor="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
                   <input
@@ -68,7 +70,7 @@ const Projects = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        htmlFor="my-modal-3"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -91,8 +93,8 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-xl font-bold">Developer Portfolio</p>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold">Developer Portfolio</p>
+                  <label htmlFor="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
                   <input
@@ -103,7 +105,7 @@ const Projects = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        htmlFor="my-modal-3"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -132,8 +134,8 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-xl font-bold">Learn To React</p>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold">Learn To React</p>
+                  <label htmlFor="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
                   <input
@@ -144,7 +146,7 @@ const Projects = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        htmlFor="my-modal-3"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -164,8 +166,8 @@ const Projects = () => {
                   <figure>
                     <img src={beer} alt="Beer Mug" height={120} width={120} />
                   </figure>
-                  <p class="text-xl font-bold">Epicodus Taproom</p>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold">Epicodus Taproom</p>
+                  <label htmlFor="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
                   <input
@@ -176,7 +178,7 @@ const Projects = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        htmlFor="my-modal-3"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -196,8 +198,8 @@ const Projects = () => {
                   <figure>
                     <img src={quiz} alt="Quiz" height={120} width={120} />
                   </figure>
-                  <p class="text-xl font-bold">Programming Language Quiz</p>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold">Programming Language Quiz</p>
+                  <label htmlFor="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
                   <input
@@ -208,7 +210,7 @@ const Projects = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        htmlFor="my-modal-3"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕

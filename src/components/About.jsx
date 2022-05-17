@@ -1,5 +1,8 @@
 import React from "react";
 import "../index.css";
+import GitHubResults from "../API/GitHubResults";
+import RunningResults from "../API/RunningResults";
+import ChessResults from "../API/ChessResults";
 
 const About = () => {
   return (
@@ -63,27 +66,8 @@ const About = () => {
                 <p className="text-center mb-8 text-neutral-content">
                   Data provided via the Chess.com API
                 </p>
-                <div class="stats shadow">
-                  <div class="stat place-items-center">
-                    <div class="stat-title">Downloads</div>
-                    <div class="stat-value">31K</div>
-                    <div class="stat-desc">
-                      From January 1st to February 1st
-                    </div>
-                  </div>
 
-                  <div class="stat place-items-center">
-                    <div class="stat-title">Users</div>
-                    <div class="stat-value text-secondary">4,200</div>
-                    <div class="stat-desc text-secondary">↗︎ 40 (2%)</div>
-                  </div>
-
-                  <div class="stat place-items-center">
-                    <div class="stat-title">New Registers</div>
-                    <div class="stat-value">1,200</div>
-                    <div class="stat-desc">↘︎ 90 (14%)</div>
-                  </div>
-                </div>
+                <ChessResults />
               </div>
               <div className="basis-1/2 flex flex-col justify-center items-center">
                 <h6 className="text-3xl font-bold mt-10 pt-18 text-center text-neutral-content">
@@ -93,27 +77,7 @@ const About = () => {
                   Data provided via the MapMyRun API
                 </p>
 
-                <div class="stats shadow">
-                  <div class="stat place-items-center">
-                    <div class="stat-title">Downloads</div>
-                    <div class="stat-value">31K</div>
-                    <div class="stat-desc">
-                      From January 1st to February 1st
-                    </div>
-                  </div>
-
-                  <div class="stat place-items-center">
-                    <div class="stat-title">Users</div>
-                    <div class="stat-value text-secondary">4,200</div>
-                    <div class="stat-desc text-secondary">↗︎ 40 (2%)</div>
-                  </div>
-
-                  <div class="stat place-items-center">
-                    <div class="stat-title">New Registers</div>
-                    <div class="stat-value">1,200</div>
-                    <div class="stat-desc">↘︎ 90 (14%)</div>
-                  </div>
-                </div>
+                <RunningResults />
               </div>
             </div>
             <div className="flex flex-row gap-4 content-centeritems-center">
@@ -124,39 +88,7 @@ const About = () => {
                 <p className="text-center mb-8 text-neutral-content">
                   Data provided via the GitHub API
                 </p>
-                <div class="stats shadow">
-                  <div class="stat place-items-center">
-                    <div class="stat-title">Downloads</div>
-                    <div class="stat-value">31K</div>
-                    <div class="stat-desc">
-                      From January 1st to February 1st
-                    </div>
-                  </div>
-
-                  <div class="stat place-items-center">
-                    <div class="stat-title">Users</div>
-                    <div class="stat-value text-secondary">4,200</div>
-                    <div class="stat-desc text-secondary">↗︎ 40 (2%)</div>
-                  </div>
-
-                  <div class="stat place-items-center">
-                    <div class="stat-title">Users</div>
-                    <div class="stat-value text-secondary">4,200</div>
-                    <div class="stat-desc text-secondary">↗︎ 40 (2%)</div>
-                  </div>
-
-                  <div class="stat place-items-center">
-                    <div class="stat-title">Users</div>
-                    <div class="stat-value text-secondary">4,200</div>
-                    <div class="stat-desc text-secondary">↗︎ 40 (2%)</div>
-                  </div>
-
-                  <div class="stat place-items-center">
-                    <div class="stat-title">New Registers</div>
-                    <div class="stat-value">1,200</div>
-                    <div class="stat-desc">↘︎ 90 (14%)</div>
-                  </div>
-                </div>
+                <GitHubResults />
               </div>
             </div>
           </div>

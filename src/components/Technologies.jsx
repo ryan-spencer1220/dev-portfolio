@@ -26,9 +26,9 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-2xl font-bold">React / Redux</p>
+                  <p className="text-2xl font-bold">React / Redux</p>
                   <label
-                    for="my-modal-1"
+                    htmlFor="my-modal-1"
                     className="btn modal-button btn-primary"
                   >
                     Learn More
@@ -42,7 +42,7 @@ const Technologies = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-1"
+                        htmlFor="my-modal-1"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -65,10 +65,10 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-2xl font-bold">C# / ASP.NET</p>
+                  <p className="text-2xl font-bold">C# / ASP.NET</p>
 
                   <label
-                    for="my-modal-2"
+                    htmlFor="my-modal-2"
                     className="btn modal-button btn-primary"
                   >
                     Learn More
@@ -81,7 +81,7 @@ const Technologies = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-2"
+                        htmlFor="my-modal-2"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -106,10 +106,10 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-2xl font-bold">Node.js</p>
+                  <p className="text-2xl font-bold">Node.js</p>
 
                   <label
-                    for="my-modal-3"
+                    htmlFor="my-modal-3"
                     className="btn modal-button btn-primary"
                   >
                     Learn More
@@ -122,7 +122,7 @@ const Technologies = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        htmlFor="my-modal-3"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -140,7 +140,7 @@ const Technologies = () => {
               </div>
             </div>
 
-            <div class="divider mt-20"></div>
+            <div className="divider mt-20"></div>
 
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
@@ -153,10 +153,10 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-2xl font-bold">JavaScript</p>
+                  <p className="text-2xl font-bold">JavaScript</p>
 
                   <label
-                    for="my-modal-4"
+                    htmlFor="my-modal-4"
                     className="btn modal-button btn-primary"
                   >
                     Learn More
@@ -169,7 +169,7 @@ const Technologies = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-4"
+                        htmlFor="my-modal-4"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -194,10 +194,10 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-2xl font-bold">MySQL</p>
+                  <p className="text-2xl font-bold">MySQL</p>
 
                   <label
-                    for="my-modal-5"
+                    htmlFor="my-modal-5"
                     className="btn modal-button btn-primary"
                   >
                     Learn More
@@ -210,7 +210,7 @@ const Technologies = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-5"
+                        htmlFor="my-modal-5"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -242,10 +242,10 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <p class="text-2xl font-bold">MongoDB</p>
+                  <p className="text-2xl font-bold">MongoDB</p>
 
                   <label
-                    for="my-modal-6"
+                    htmlFor="my-modal-6"
                     className="btn modal-button btn-primary"
                   >
                     Learn More
@@ -258,7 +258,7 @@ const Technologies = () => {
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-6"
+                        htmlFor="my-modal-6"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
