@@ -10,7 +10,7 @@ const About = () => {
       <div className="mx-auto flex flex-wrap md items-center h-screen pt-18 bg-accent-content">
         <div className=" w-full h-screen">
           <div className="mx-32">
-            <h1 className="text-6xl font-bold mt-20 mb-10 text-center text-neutral-content">
+            <h1 className="text-6xl font-bold mt-20 mb-10 text-center text-primary">
               About
             </h1>
             <div className="flex flex-row gap-4">
@@ -55,25 +55,25 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <h1 className="text-6xl font-bold mt-20 mb-10 pt-18 text-center text-neutral-content">
+            <h1 className="text-6xl font-bold mt-20 mb-10 pt-18 text-center text-primary">
               Hobbies
             </h1>
             <div className="flex flex-row gap-4">
               <div className="basis-1/2 flex flex-col justify-center items-center">
-                <h6 className="text-3xl font-bold mt-10 pt-18 text-center text-neutral-content">
+                <h6 className="text-3xl font-bold mt-10 pt-18 text-center text-primary">
                   Chess
                 </h6>
-                <p className="text-center mb-8 text-neutral-content">
+                <p className="text-center mb-8 text-primary">
                   Data provided via the Chess.com API
                 </p>
 
                 <ChessResults />
               </div>
               <div className="basis-1/2 flex flex-col justify-center items-center">
-                <h6 className="text-3xl font-bold mt-10 pt-18 text-center text-neutral-content">
+                <h6 className="text-3xl font-bold mt-10 pt-18 text-center text-primary">
                   Running
                 </h6>
-                <p className="text-center mb-8 text-neutral-content">
+                <p className="text-center mb-8 text-primary">
                   Data provided via the MapMyRun API
                 </p>
 
@@ -82,10 +82,10 @@ const About = () => {
             </div>
             <div className="flex flex-row gap-4 content-centeritems-center">
               <div className="basis-full flex flex-col justify-center items-center">
-                <h6 className="text-3xl font-bold mt-10 pt-18 text-center text-neutral-content">
+                <h6 className="text-3xl font-bold mt-10 pt-18 text-center text-primary">
                   Coding
                 </h6>
-                <p className="text-center mb-8 text-neutral-content">
+                <p className="text-center mb-8 text-primary">
                   Data provided via the GitHub API
                 </p>
                 <GitHubResults />
