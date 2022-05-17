@@ -13,12 +13,11 @@ function ChessResults() {
     );
 
     const data = await response.json();
-    console.log(data);
     setUsers(data);
   };
 
   return (
-    <div className="stats shadow">
+    <div className="stats shadow-2xl">
       <div className="stat place-items-center">
         <div className="stat-title">Rapid Elo</div>
         <div className="stat-value">{users.chess_rapid.best.rating}</div>

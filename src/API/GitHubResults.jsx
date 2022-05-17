@@ -18,7 +18,7 @@ function GitHubResults() {
   };
 
   return (
-    <div className="stats shadow">
+    <div className="stats shadow-2xl">
       <div className="stat place-items-center">
         <div className="stat-title">Username</div>
         <div className="stat-value">{users.login}</div>

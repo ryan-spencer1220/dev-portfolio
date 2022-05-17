@@ -12,12 +12,12 @@ const Technologies = () => {
       <div className="flex flex-wrap md items-center h-screen pt-18 bg-neutral-content">
         <div className="w-full h-screen">
           <div className="mx-32">
-            <h1 className="text-6xl font-bold m-20 pt-18 text-center text-secondary">
+            <h1 className="text-6xl font-bold m-20 pt-18 text-center text-secondary underline underline-offset-8">
               Technologies
             </h1>
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={reactLogo}
@@ -56,7 +56,7 @@ const Technologies = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={csharpLogo}
@@ -97,7 +97,7 @@ const Technologies = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={nodeLogo}
@@ -144,7 +144,7 @@ const Technologies = () => {
 
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={javascriptLogo}
@@ -185,7 +185,7 @@ const Technologies = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={mysqlLogo}
@@ -233,7 +233,7 @@ const Technologies = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={mongoLogo}

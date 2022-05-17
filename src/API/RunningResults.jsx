@@ -18,10 +18,10 @@ function RunningResults() {
   };
 
   return (
-    <div className="stats shadow">
+    <div className="stats shadow-2xl">
       <div className="stat place-items-center">
         <div className="stat-title">Total Miles</div>
-        <div className="stat-value">3061</div>
+        <div className="stat-value">3061mi</div>
         <div className="stat-desc">Since 2014</div>
       </div>
 
@@ -39,7 +39,7 @@ function RunningResults() {
 
       <div className="stat place-items-center">
         <div className="stat-title">Average Distance</div>
-        <div className="stat-value">18.5</div>
+        <div className="stat-value">18.5mi</div>
         <div className="stat-desc">Average Distance / Week</div>
       </div>
     </div>

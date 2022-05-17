@@ -32,15 +32,3 @@ const Intro = () => {
 };
 
 export default Intro;
-
-{
-  /* <div className="text-center">
-<div className="max-w-md">
-  <h1 className="text-5xl font-bold text-accent">Ryan Spencer</h1>
-  <p className="py-6 text-accent">
-    Software Engineer | Portland, Oregon
-  </p>
-  <button className="btn btn-primary">Projects</button>
-</div>
-</div> */
-}

@@ -12,17 +12,22 @@ const Projects = () => {
       <div className="flex flex-wrap md items-center h-screen pt-18 bg-accent-content">
         <div className="w-full h-screen">
           <div className="mx-32">
-            <h1 className="text-6xl font-bold m-20 pt-18 text-center text-primary">
+            <h1 className="text-6xl font-bold text-accent m-20 pt-18 text-center underline underline-offset-8">
               Projects
             </h1>
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img src={goals} alt="Goal Logo" height={120} width={120} />
                   </figure>
-                  <p className="text-xl font-bold">Goal Tracker Application</p>
-                  <label htmlFor="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold text-accent">
+                    Goal Tracker Application
+                  </p>
+                  <label
+                    htmlFor="my-modal-3"
+                    className="btn modal-button btn-secondary"
+                  >
                     View Project
                   </label>
                   <input
@@ -38,7 +43,7 @@ const Projects = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg text-center font-bold">
+                      <h3 className="text-lg text-center font-bold text-accent">
                         Goal Tracker Application
                       </h3>
                       <p className="py-4">What?</p>
@@ -47,7 +52,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={barChart}
@@ -56,10 +61,13 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  <p className="text-xl font-bold">
+                  <p className="text-xl font-bold text-accent">
                     Sorting Algorithm Visualizer
                   </p>
-                  <label htmlFor="my-modal-3" className="btn modal-button">
+                  <label
+                    htmlFor="my-modal-3"
+                    className="btn modal-button btn-secondary"
+                  >
                     View Project
                   </label>
                   <input
@@ -75,7 +83,7 @@ const Projects = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg text-center font-bold">
+                      <h3 className="text-lg text-center font-bold text-accent">
                         Goal Tracker Application
                       </h3>
                       <p className="py-4">What?</p>
@@ -84,7 +92,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72   card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={coding}
@@ -93,8 +101,13 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  <p className="text-xl font-bold">Developer Portfolio</p>
-                  <label htmlFor="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold text-accent">
+                    Developer Portfolio
+                  </p>
+                  <label
+                    htmlFor="my-modal-3"
+                    className="btn modal-button btn-secondary"
+                  >
                     View Project
                   </label>
                   <input
@@ -110,7 +123,7 @@ const Projects = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold text-accent">
                         Congratulations random Interner use
                       </h3>
                       <p className="py-4">
@@ -125,7 +138,7 @@ const Projects = () => {
 
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72   card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={course}
@@ -134,8 +147,13 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  <p className="text-xl font-bold">Learn To React</p>
-                  <label htmlFor="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold text-accent">
+                    Learn To React
+                  </p>
+                  <label
+                    htmlFor="my-modal-3"
+                    className="btn modal-button btn-secondary"
+                  >
                     View Project
                   </label>
                   <input
@@ -151,7 +169,7 @@ const Projects = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold text-accent">
                         Goal Tracker Application
                       </h3>
                       <p className="py-4">
@@ -162,12 +180,17 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72   card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img src={beer} alt="Beer Mug" height={120} width={120} />
                   </figure>
-                  <p className="text-xl font-bold">Epicodus Taproom</p>
-                  <label htmlFor="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold text-accent">
+                    Epicodus Taproom
+                  </p>
+                  <label
+                    htmlFor="my-modal-3"
+                    className="btn modal-button btn-secondary"
+                  >
                     View Project
                   </label>
                   <input
@@ -183,7 +206,7 @@ const Projects = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold text-accent">
                         Goal Tracker Application
                       </h3>
                       <p className="py-4">
@@ -194,12 +217,17 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
+                <div className="grid flex-grow h-72 w-72   card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img src={quiz} alt="Quiz" height={120} width={120} />
                   </figure>
-                  <p className="text-xl font-bold">Programming Language Quiz</p>
-                  <label htmlFor="my-modal-3" className="btn modal-button">
+                  <p className="text-xl font-bold text-accent">
+                    Programming Language Quiz
+                  </p>
+                  <label
+                    htmlFor="my-modal-3"
+                    className="btn modal-button btn-secondary"
+                  >
                     View Project
                   </label>
                   <input
@@ -215,7 +243,7 @@ const Projects = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
+                      <h3 className="text-lg font-bold text-accent">
                         Congratulations random Interner user!
                       </h3>
                       <p className="py-4">
