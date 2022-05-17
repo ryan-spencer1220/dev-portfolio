@@ -1,5 +1,4 @@
 import React from "react";
-import reactLogo from "../assets/technologies/react.png";
 import barChart from "../assets/projects/bar-chart.png";
 import goals from "../assets/projects/goal.png";
 import coding from "../assets/projects/web-development.png";
@@ -18,11 +17,11 @@ const Projects = () => {
             </h1>
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img src={goals} alt="Goal Logo" height={120} width={120} />
                   </figure>
-                  Goal Tracker Application
+                  <p class="text-xl font-bold">Goal Tracker Application</p>
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
@@ -39,18 +38,16 @@ const Projects = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
+                      <h3 className="text-lg text-center font-bold">
+                        Goal Tracker Application
                       </h3>
-                      <p className="py-4">
-                        You've been selected for a chance to get one year of
-                        subscription to use Wikipedia for free!
-                      </p>
+                      <p className="py-4">What?</p>
+                      <p className="py-4">Why?</p>
                     </div>
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={barChart}
@@ -59,7 +56,7 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  Sorting Algorithm Visualizer
+                  <p class="text-xl font-bold">Sorting Algorithm Visualizer</p>
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
@@ -76,18 +73,16 @@ const Projects = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
+                      <h3 className="text-lg text-center font-bold">
+                        Goal Tracker Application
                       </h3>
-                      <p className="py-4">
-                        You've been selected for a chance to get one year of
-                        subscription to use Wikipedia for free!
-                      </p>
+                      <p className="py-4">What?</p>
+                      <p className="py-4">Why?</p>
                     </div>
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={coding}
@@ -96,7 +91,7 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  Developer Portfolio
+                  <p class="text-xl font-bold">Developer Portfolio</p>
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
@@ -114,7 +109,7 @@ const Projects = () => {
                         ✕
                       </label>
                       <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
+                        Congratulations random Interner use
                       </h3>
                       <p className="py-4">
                         You've been selected for a chance to get one year of
@@ -128,7 +123,7 @@ const Projects = () => {
 
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={course}
@@ -137,7 +132,7 @@ const Projects = () => {
                       width={120}
                     />
                   </figure>
-                  Learn To React
+                  <p class="text-xl font-bold">Learn To React</p>
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
@@ -155,7 +150,7 @@ const Projects = () => {
                         ✕
                       </label>
                       <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
+                        Goal Tracker Application
                       </h3>
                       <p className="py-4">
                         You've been selected for a chance to get one year of
@@ -165,11 +160,11 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img src={beer} alt="Beer Mug" height={120} width={120} />
                   </figure>
-                  Epicodus Taproom
+                  <p class="text-xl font-bold">Epicodus Taproom</p>
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
                   </label>
@@ -187,7 +182,7 @@ const Projects = () => {
                         ✕
                       </label>
                       <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
+                        Goal Tracker Application
                       </h3>
                       <p className="py-4">
                         You've been selected for a chance to get one year of
@@ -197,11 +192,11 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img src={quiz} alt="Quiz" height={120} width={120} />
                   </figure>
-                  Programming Language Quiz
+                  <p class="text-xl font-bold">Programming Language Quiz</p>
                   <label for="my-modal-3" className="btn modal-button">
                     View Project
                   </label>

@@ -17,7 +17,7 @@ const Technologies = () => {
             </h1>
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={reactLogo}
@@ -26,26 +26,28 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p class="text-2xl font-bold">React / Redux</p>
+                  <label
+                    for="my-modal-1"
+                    className="btn modal-button btn-primary"
+                  >
                     Learn More
                   </label>
 
                   <input
                     type="checkbox"
-                    id="my-modal-3"
+                    id="my-modal-1"
                     className="modal-toggle"
                   />
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        for="my-modal-1"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
-                      </h3>
+                      <h3 className="text-lg font-bold">React / Redux</h3>
                       <p className="py-4">
                         You've been selected for a chance to get one year of
                         subscription to use Wikipedia for free!
@@ -54,7 +56,7 @@ const Technologies = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={csharpLogo}
@@ -63,18 +65,23 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p class="text-2xl font-bold">C# / ASP.NET</p>
+
+                  <label
+                    for="my-modal-2"
+                    className="btn modal-button btn-primary"
+                  >
                     Learn More
                   </label>
                   <input
                     type="checkbox"
-                    id="my-modal-3"
+                    id="my-modal-2"
                     className="modal-toggle"
                   />
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        for="my-modal-2"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -90,7 +97,7 @@ const Technologies = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={nodeLogo}
@@ -99,7 +106,12 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p class="text-2xl font-bold">Node.js</p>
+
+                  <label
+                    for="my-modal-3"
+                    className="btn modal-button btn-primary"
+                  >
                     Learn More
                   </label>
                   <input
@@ -128,9 +140,11 @@ const Technologies = () => {
               </div>
             </div>
 
+            <div class="divider mt-20"></div>
+
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={javascriptLogo}
@@ -139,18 +153,23 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p class="text-2xl font-bold">JavaScript</p>
+
+                  <label
+                    for="my-modal-4"
+                    className="btn modal-button btn-primary"
+                  >
                     Learn More
                   </label>
                   <input
                     type="checkbox"
-                    id="my-modal-3"
+                    id="my-modal-4"
                     className="modal-toggle"
                   />
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        for="my-modal-4"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
@@ -166,7 +185,7 @@ const Technologies = () => {
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={mysqlLogo}
@@ -175,34 +194,46 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p class="text-2xl font-bold">MySQL</p>
+
+                  <label
+                    for="my-modal-5"
+                    className="btn modal-button btn-primary"
+                  >
                     Learn More
                   </label>
                   <input
                     type="checkbox"
-                    id="my-modal-3"
+                    id="my-modal-5"
                     className="modal-toggle"
                   />
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        for="my-modal-5"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
-                      </h3>
-                      <p className="py-4">
-                        You've been selected for a chance to get one year of
-                        subscription to use Wikipedia for free!
-                      </p>
+                      <div className="grid flex-grow place-items-center">
+                        <h3 className="text-lg font-bold text-center">MySQL</h3>
+                        <p className="py-4">
+                          MySQL was a core technology of the Epicodus curiculum.
+                          During our C# module our cohort worked closely with
+                          one-to-one, one-to-many, and many-to-many
+                          relationships with MySQL. Our C# team week project
+                          utilized MySQL to collect and store user progress for
+                          an educational web application.
+                        </p>
+                        <div className="btn-secondary btn">
+                          Check Out A Project!
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <div className="divider lg:divider-horizontal"></div>
-                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center">
+                <div className="grid flex-grow h-96 w-96 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
                       src={mongoLogo}
@@ -211,29 +242,42 @@ const Technologies = () => {
                       width={120}
                     />
                   </figure>
-                  <label for="my-modal-3" className="btn modal-button">
+                  <p class="text-2xl font-bold">MongoDB</p>
+
+                  <label
+                    for="my-modal-6"
+                    className="btn modal-button btn-primary"
+                  >
                     Learn More
                   </label>
                   <input
                     type="checkbox"
-                    id="my-modal-3"
+                    id="my-modal-6"
                     className="modal-toggle"
                   />
                   <div className="modal modal-bottom sm:modal-middle">
                     <div className="modal-box relative">
                       <label
-                        for="my-modal-3"
+                        for="my-modal-6"
                         className="btn btn-sm btn-circle absolute right-2 top-2"
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
-                      </h3>
-                      <p className="py-4">
-                        You've been selected for a chance to get one year of
-                        subscription to use Wikipedia for free!
-                      </p>
+                      <div className="grid flex-grow place-items-center">
+                        <h3 className="text-lg font-bold text-center">
+                          MongoDB
+                        </h3>
+                        <p className="py-4">
+                          While MongoDB was not a core technology represented in
+                          the Epicodus curriculim, the database platform has
+                          been my go-to option for personal projects and the
+                          subject of several courses I've completed outside of
+                          Epicodus!
+                        </p>
+                        <div className="btn-secondary btn">
+                          Check Out A Project!
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
