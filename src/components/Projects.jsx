@@ -33,13 +33,17 @@ const Projects = () => {
                   </figure>
                   <p className="text-xl font-bold text-accent">GitHub Finder</p>
                   <label
-                    for="my-modal-7"
-                    class="btn btn-secondary modal-button"
+                    htmlFor="my-modal-7"
+                    className="btn btn-secondary modal-button"
                   >
                     View Project
                   </label>
 
-                  <input type="checkbox" id="my-modal-7" class="modal-toggle" />
+                  <input
+                    type="checkbox"
+                    id="my-modal-7"
+                    className="modal-toggle"
+                  />
                   <GitHubFinder />
                 </div>
 

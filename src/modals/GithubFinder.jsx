@@ -22,8 +22,8 @@ import { SiFirebase } from "react-icons/si";
 const GitHubFinder = () => {
   return (
     <>
-      <div class="modal">
-        <div class="modal-box w-11/12 max-w-5xl">
+      <div className="modal">
+        <div className="modal-box w-11/12 max-w-5xl">
           <div className="flex flex-row gap-4">
             <div className="basis-1/2">
               <div className="card bg-base-100 shadow-xl">

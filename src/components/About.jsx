@@ -7,22 +7,8 @@ import { IconContext } from "react-icons";
 import { GoMarkGithub } from "react-icons/go";
 import { GrLinkedin } from "react-icons/gr";
 import { BsMedium } from "react-icons/bs";
-import { useSpring, animated } from "react-spring";
 
 const About = () => {
-  function Number() {
-    const [flip, set] = useState(false);
-    const { number } = useSpring({
-      reset: true,
-      reverse: flip,
-      from: { number: 0 },
-      number: 1,
-      delay: 200,
-      config: config.molasses,
-      onRest: () => set(!flip),
-    });
-  }
-
   return (
     <>
       <div className="mx-auto flex flex-wrap md items-center h-screen pt-18 bg-accent-content">
@@ -48,9 +34,6 @@ const About = () => {
                       education and personal growth. Take a look at my work or
                       get in touch!
                     </p>
-                    <animated.div>
-                      {number.to((n) => n.toFixed(2))}
-                    </animated.div>
                     <div className="card-actions justify-end"></div>
                   </div>
                 </div>
