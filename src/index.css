@@ -6,6 +6,10 @@ body {
   font-family: Poppins;
 }
 
+.card:hover {
+  transform: scale(1.1);
+}
+
 .curved-div {
   position: relative;
   background: hsl(var(--p));
@@ -34,4 +38,17 @@ body {
   font-size: 2.25rem /* 36px */;
   line-height: 2.5rem /* 40px */;
   font-weight: 800;
+}
+
+/* This only changes this particular animation duration */
+.animate__bounceInLeft {
+  --animate-duration: 1s;
+}
+
+.animate__bounceInRight {
+  --animate-duration: 1.5s;
+}
+
+.animate__bounceInUp {
+  --animate-duration: 2.25s;
 }

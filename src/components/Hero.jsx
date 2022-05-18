@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import "animate.css";
 
 const Intro = () => {
   return (
@@ -14,11 +15,16 @@ const Intro = () => {
         </svg>
       </div>
       <div className="curved-div">
-        <h1 className="text-5xl font-bold text-accent">Ryan Spencer</h1>
-        <h6 className="py-8 text-2xl text-accent">
+        <h1 className="text-5xl font-bold text-accent animate__animated animate__bounceInLeft">
+          Ryan Spencer
+        </h1>
+        <h6 className="py-8 text-2xl text-accent animate__animated animate__bounceInRight">
           Software Engineer | Portland, Oregon
         </h6>
-        <a href="#projects" className="btn btn-secondary">
+        <a
+          href="#projects"
+          className="btn btn-secondary animate__animated animate__bounceInUp"
+        >
           Projects
         </a>
         <svg viewBox="0 0 1440 319">

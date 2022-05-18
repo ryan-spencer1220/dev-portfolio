@@ -55,7 +55,7 @@ function GitHubResults() {
 
       <div className="stat place-items-center">
         <div className="stat-title">Commits</div>
-        <div className="stat-value text-primary" data-target="992">
+        <div className="stat-value text-primary" data-target="788">
           0
         </div>
       </div>

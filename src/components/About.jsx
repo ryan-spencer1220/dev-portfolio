@@ -14,7 +14,7 @@ const About = () => {
       <div className="mx-auto flex flex-wrap md items-center h-screen pt-18 bg-accent-content">
         <div className=" w-full h-screen">
           <div className="mx-32">
-            <h1 className="text-6xl font-bold mt-20 mb-10 text-center text-accent underline underline-offset-8">
+            <h1 className="text-6xl font-bold mt-20 mb-10 text-center text-accent underline underline-offset-8 animate__animated animate__bounceInUp">
               About
             </h1>
             <div className="flex flex-row gap-4">
