@@ -1,14 +1,29 @@
 import React from "react";
 import barChart from "../assets/projects/bar-chart.png";
-import goals from "../assets/projects/goal.png";
+import weather from "../assets/projects/rain.png";
 import coding from "../assets/projects/web-development.png";
-import course from "../assets/projects/online-course.png";
+import github from "../assets/projects/github-sign.png";
 import beer from "../assets/projects/beer-mug.png";
 import quiz from "../assets/projects/quiz.png";
 import { IconContext } from "react-icons";
 import { GoMarkGithub } from "react-icons/go";
 import { GrLinkedin } from "react-icons/gr";
 import { BsMedium } from "react-icons/bs";
+import githubFinder from "../assets/screenshots/github-finder.png";
+import epicodusTaproom from "../assets/screenshots/epicodus-taproom.png";
+import languageQuiz from "../assets/screenshots/language-quiz.png";
+import sortingVisualizer from "../assets/screenshots/sorting-visualizer.png";
+import weatherAPI from "../assets/screenshots/weather-api.png";
+import { SiJavascript } from "react-icons/si";
+import { DiReact } from "react-icons/di";
+import { SiTailwindcss } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import GitHubFinder from "../modals/GithubFinder";
+import DevPortfolio from "../modals/DevPortfolio";
+import LanguageQuiz from "../modals/LanguageQuiz";
+import SortingAlgo from "../modals/SortingAlgo";
+import Taproom from "../modals/Taproom";
+import WeatherAPI from "../modals/WeatherAPI";
 
 const Projects = () => {
   return (
@@ -16,106 +31,30 @@ const Projects = () => {
       <div className="flex flex-wrap md items-center h-screen pt-18 bg-accent-content">
         <div className="w-full h-screen">
           <div className="mx-32">
-            <h1 className="text-6xl font-bold text-accent m-20 pt-18 text-center">
+            <h1 className="text-6xl font-bold text-accent m-20 pt-18 text-center underline underline-offset-8">
               Projects
             </h1>
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">
                 <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
-                    <img src={goals} alt="Goal Logo" height={120} width={120} />
+                    <img
+                      src={github}
+                      alt="Goal Logo"
+                      height={120}
+                      width={120}
+                    />
                   </figure>
-                  <p className="text-xl font-bold text-accent">
-                    Goal Tracker Application
-                  </p>
-                  <label for="my-modal-7" class="btn modal-button">
-                    open modal
+                  <p className="text-xl font-bold text-accent">GitHub Finder</p>
+                  <label
+                    for="my-modal-7"
+                    class="btn btn-secondary modal-button"
+                  >
+                    View Project
                   </label>
 
                   <input type="checkbox" id="my-modal-7" class="modal-toggle" />
-                  <div class="modal">
-                    <div class="modal-box w-11/12 max-w-5xl">
-                      <div className="flex flex-row gap-4">
-                        <div className="basis-1/2">
-                          <div className="card bg-base-100 shadow-xl">
-                            <div className="card-body">
-                              <h2 className="card-title">About Me</h2>
-                              <p>
-                                Full-time student at Epicodus specializing in
-                                JavaScript, React, and C#. Looking for an
-                                opportunity to combine my background in business
-                                management with my experience in software
-                                development. Prior to Epicodus I was an active
-                                member of the craft beer industry as the general
-                                manager of Bailey's Taproom in Portland, Oregon.
-                                I am a communicative, detail oriented, team
-                                player who presents technical information
-                                effectively with a passion for education and
-                                personal growth. Take a look at my work or get
-                                in touch!
-                              </p>
-                              <div className="card-actions justify-end"></div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="basis-1/2">
-                          <div className="card bg-base-100 shadow-xl">
-                            <div className="card-body items-center">
-                              <div className="grid grid-flow-col gap-4">
-                                <a href="https://github.com/ryan-spencer1220">
-                                  <IconContext.Provider
-                                    value={{
-                                      size: "3em",
-                                      className:
-                                        "global-class-name text-accent",
-                                    }}
-                                  >
-                                    <div>
-                                      <GoMarkGithub />
-                                    </div>
-                                  </IconContext.Provider>
-                                </a>
-                                <a href="https://www.linkedin.com/in/ryan-spencer-pdx/">
-                                  <IconContext.Provider
-                                    value={{
-                                      size: "3em",
-                                      className:
-                                        "global-class-name text-accent",
-                                    }}
-                                  >
-                                    <div>
-                                      <GrLinkedin />
-                                    </div>
-                                  </IconContext.Provider>
-                                </a>
-                                <a href="https://medium.com/@ryan.spencer1220">
-                                  <IconContext.Provider
-                                    value={{
-                                      size: "3em",
-                                      className:
-                                        "global-class-name text-accent",
-                                    }}
-                                  >
-                                    <div>
-                                      <BsMedium />
-                                    </div>
-                                  </IconContext.Provider>
-                                </a>
-                              </div>
-                              <button className="btn btn-secondary my-10">
-                                View Resume
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="modal-action">
-                        <label for="my-modal-7" class="btn">
-                          Yay!
-                        </label>
-                      </div>
-                    </div>
-                  </div>
+                  <GitHubFinder />
                 </div>
 
                 <div className="divider lg:divider-horizontal"></div>
@@ -143,21 +82,7 @@ const Projects = () => {
                     id="my-modal-8"
                     className="modal-toggle"
                   />
-                  <div className="modal modal-bottom sm:modal-middle">
-                    <div className="modal-box relative">
-                      <label
-                        htmlFor="my-modal-8"
-                        className="btn btn-sm btn-circle absolute right-2 top-2"
-                      >
-                        ✕
-                      </label>
-                      <h3 className="text-lg text-center font-bold text-accent">
-                        Goal Tracker Application
-                      </h3>
-                      <p className="py-4">What?</p>
-                      <p className="py-4">Why?</p>
-                    </div>
-                  </div>
+                  <SortingAlgo />
                 </div>
 
                 <div className="divider lg:divider-horizontal"></div>
@@ -211,14 +136,14 @@ const Projects = () => {
                 <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
-                      src={course}
+                      src={weather}
                       alt="Online Course"
                       height={120}
                       width={120}
                     />
                   </figure>
                   <p className="text-xl font-bold text-accent">
-                    Learn To React
+                    Weather API App
                   </p>
                   <label
                     htmlFor="my-modal-10"
