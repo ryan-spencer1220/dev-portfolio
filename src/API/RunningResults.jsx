@@ -21,25 +21,31 @@ function RunningResults() {
     <div className="stats shadow-2xl">
       <div className="stat place-items-center">
         <div className="stat-title">Total Miles</div>
-        <div className="stat-value">3061mi</div>
+        <div className="stat-value" data-target="2586">
+          0
+        </div>
         <div className="stat-desc">Since 2014</div>
       </div>
 
       <div className="stat place-items-center">
         <div className="stat-title">Average Pace</div>
-        <div className="stat-value text-primary">8:36</div>
+        <div className="stat-value2 text-primary">8:36</div>
         <div className="stat-desc">Minutes / Mile</div>
       </div>
 
       <div className="stat place-items-center">
         <div className="stat-title">Total Hours</div>
-        <div className="stat-value text-secondary">448</div>
+        <div className="stat-value text-secondary" data-target="448">
+          0
+        </div>
         <div className="stat-desc">Since 2014</div>
       </div>
 
       <div className="stat place-items-center">
         <div className="stat-title">Average Distance</div>
-        <div className="stat-value">18.5mi</div>
+        <div className="stat-value" data-target="2586">
+          0
+        </div>
         <div className="stat-desc">Average Distance / Week</div>
       </div>
     </div>

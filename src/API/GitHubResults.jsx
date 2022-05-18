@@ -20,46 +20,35 @@ function GitHubResults() {
   const counters = document.querySelectorAll(".stat-value");
   const speed = 200; // The lower the slower
 
-  function delayCounter() {
-    setTimeout(
-      counters.forEach((counter) => {
-        const updateCount = () => {
-          const target = +counter.getAttribute("data-target");
-          const count = +counter.innerText;
+  counters.forEach((counter) => {
+    const updateCount = () => {
+      const target = +counter.getAttribute("data-target");
+      const count = +counter.innerText;
 
-          const inc = target / speed;
+      const inc = target / speed;
 
-          if (count < target) {
-            counter.innerText = Number((count + inc).toFixed(0));
-            setTimeout(updateCount, 50);
-          } else {
-            counter.innerText = target;
-          }
-        };
+      if (count < target) {
+        counter.innerText = Number((count + inc).toFixed(0));
+        setTimeout(updateCount, 50);
+      } else {
+        counter.innerText = target;
+      }
+    };
 
-        updateCount();
-      }),
-      5000
-    );
-  }
-
-  delayCounter();
+    updateCount();
+  });
 
   return (
     <div className="stats shadow-2xl">
       <div className="stat place-items-center">
         <div className="stat-title">Username</div>
-        <div className="stat-value">{users.login}</div>
+        <div className="stat-value2">{users.login}</div>
         <div className="stat-desc">Member Since 2020</div>
       </div>
 
       <div className="stat place-items-center">
         <div className="stat-title">Repos</div>
-        <div
-          className="stat-value text-secondary"
-          // data-target={users.public_repos}
-          data-target="97"
-        >
+        <div className="stat-value text-secondary" data-target="101">
           0
         </div>
       </div>
@@ -73,20 +62,12 @@ function GitHubResults() {
 
       <div className="stat place-items-center">
         <div className="stat-title">Followers</div>
-        <div
-          className="stat-value text-secondary"
-          data-target="21"
-          // data-target={users.followers}
-        >
-          0
-        </div>
+        <div className="stat-value2 text-secondary">19</div>
       </div>
 
       <div className="stat place-items-center">
         <div className="stat-title">Following</div>
-        <div className="stat-value" data-target="19">
-          0
-        </div>
+        <div className="stat-value2">21</div>
       </div>
     </div>
   );

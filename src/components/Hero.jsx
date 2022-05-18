@@ -18,7 +18,9 @@ const Intro = () => {
         <h6 className="py-8 text-2xl text-accent">
           Software Engineer | Portland, Oregon
         </h6>
-        <button className="btn btn-secondary">Projects</button>
+        <a href="#projects" className="btn btn-secondary">
+          Projects
+        </a>
         <svg viewBox="0 0 1440 319">
           <path
             fill="hsl(var(--b1))"

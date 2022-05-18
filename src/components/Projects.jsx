@@ -14,7 +14,10 @@ import WeatherAPI from "../modals/WeatherAPI";
 const Projects = () => {
   return (
     <>
-      <div className="flex flex-wrap md items-center h-screen pt-18 bg-accent-content">
+      <div
+        className="flex flex-wrap md items-center h-screen pt-18 bg-accent-content"
+        id="projects"
+      >
         <div className="w-full h-screen">
           <div className="mx-32">
             <h1 className="text-6xl font-bold text-accent m-20 pt-18 text-center underline underline-offset-8">

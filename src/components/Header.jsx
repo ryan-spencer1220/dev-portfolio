@@ -78,7 +78,9 @@ function Header({ Component, pageProps }) {
         <p className="btn btn-ghost normal-case text-xl">Ryan Spencer</p>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-primary">Contact</button>
+        <a href="#contact" className="btn btn-primary">
+          Contact
+        </a>
         <div className="dropdown dropdown-end dropdown-secondary">
           <select
             className="text-primary btn btn-secondary m-1"
