@@ -27,9 +27,10 @@ Functional developer portfolio communicating basic personal information, technol
 
 ## Technologies Required For Stretch Goals
 
-- PHP
-- CSS Librarie(s) (Tailwind, Material UI)
+- Tailwind CSS
+- Daisy UI
+- Animate CSS
 
 ## Notes
 
-Pretty self explanatory, I've noticed a lot of employers asking for personal websites when completing applications. This seemed like a great opportunity to fulfill the capstone requirements, create something functional/unique, and give me an edge when job hunting.
+Functional developer portfolio communicating basic personal information, technologies I have experience with, and personal projects. This seemed like a great opportunity to fulfill the capstone requirements and build something functional/unique.

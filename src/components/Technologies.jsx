@@ -96,7 +96,7 @@ const Technologies = () => {
                     </div>
                   </div>
                 </div>
-                <div className="divider lg:divider-horizontal"></div>
+                <div className="divider lg:divider-horizontal mt-20"></div>
                 <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img

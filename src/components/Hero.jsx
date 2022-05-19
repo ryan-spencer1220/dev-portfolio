@@ -4,7 +4,7 @@ import "animate.css";
 
 const Intro = () => {
   return (
-    <div className="my-40 bg-primary">
+    <div className="my-40">
       <div className="curved-div upper">
         <svg viewBox="0 0 1440 319">
           <path

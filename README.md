@@ -8,7 +8,7 @@
 
 - React
 - JavaScript
-- PHP
+- Animate CSS
 - Tailwind CSS
 - Material UI
 - Daisy UI
@@ -19,6 +19,8 @@
 - Markdown
 
 ## Description
+
+Functional developer portfolio communicating basic personal information, technologies I have experience with, and personal projects. This seemed like a great opportunity to fulfill the capstone requirements and build something functional/unique.
 
 ## Resources
 
