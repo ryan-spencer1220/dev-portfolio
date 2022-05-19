@@ -1,23 +1,10 @@
 import React from "react";
-import barChart from "../assets/projects/bar-chart.png";
-import weather from "../assets/projects/rain.png";
-import coding from "../assets/projects/web-development.png";
-import github from "../assets/projects/github-sign.png";
-import beer from "../assets/projects/beer-mug.png";
-import quiz from "../assets/projects/quiz.png";
 import { IconContext } from "react-icons";
-import { GoMarkGithub } from "react-icons/go";
-import { GrLinkedin } from "react-icons/gr";
-import { BsMedium } from "react-icons/bs";
-import githubFinder from "../assets/screenshots/github-finder.png";
 import epicodusTaproom from "../assets/screenshots/epicodus-taproom.png";
-import languageQuiz from "../assets/screenshots/language-quiz.png";
-import sortingVisualizer from "../assets/screenshots/sorting-visualizer.png";
-import weatherAPI from "../assets/screenshots/weather-api.png";
 import { SiJavascript } from "react-icons/si";
 import { DiReact } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
 
 const GitHubFinder = () => {
   return (
@@ -31,7 +18,7 @@ const GitHubFinder = () => {
                   <h2 className="card-title">Preview</h2>
                   <figure>
                     <img
-                      src={githubFinder}
+                      src={epicodusTaproom}
                       alt="Github Logo"
                       height={1060}
                       width={1060}
@@ -73,7 +60,7 @@ const GitHubFinder = () => {
                       }}
                     >
                       <div>
-                        <SiTailwindcss />
+                        <FaBootstrap />
                       </div>
                     </IconContext.Provider>
 
@@ -84,7 +71,7 @@ const GitHubFinder = () => {
                       }}
                     >
                       <div>
-                        <SiFirebase />
+                        <FaHtml5 />
                       </div>
                     </IconContext.Provider>
                   </div>
@@ -94,31 +81,36 @@ const GitHubFinder = () => {
             <div className="basis-1/2">
               <div className="card bg-base-100 shadow-xl">
                 <div className="card-body items-center">
-                  <h2 className="card-title">GitHub Finder</h2>
+                  <h2 className="card-title">Epicodus Taproom</h2>
                   <p>
-                    Full-time student at Epicodus specializing in JavaScript,
-                    React, and C#. Looking for an opportunity to combine my
-                    background in business management with my experience in
-                    software development. Prior to Epicodus I was an active
-                    member of the craft beer industry as the general manager of
-                    Bailey's Taproom in Portland, Oregon. I am a communicative,
-                    detail oriented, team player who presents technical
-                    information effectively with a passion for education and
-                    personal growth. Take a look at my work or get in touch!
+                    This project was built for our final code review in our
+                    React module at Epicouds. The application functions as
+                    taproom keg management system. The app was built with React,
+                    Bootstrap, and CSS, it showcases full CRUD functionality
+                    alowing users to add, edit, and delete kegs. Users can also
+                    update keg volumes by increasing/decreasing keg volume.
                   </p>
                   <p>
-                    Full-time student at Epicodus specializing in JavaScript,
-                    React, and C#. Looking for an opportunity to combine my
-                    background in business management with my experience in
-                    software development.
+                    I felt it was important to include this project since it was
+                    an early project in my porfolio that utilizes React. It
+                    showcases CRUD functionality and also has a clean, easy to
+                    navigate UI.
                   </p>
                   <div className="grid grid-flow-col gap-4">
-                    <button className="btn btn-secondary my-10">
+                    <a
+                      href="https://628450874a6fbe0c46645359--singular-panda-4a364a.netlify.app/"
+                      className="btn btn-secondary my-10"
+                      target="_blank"
+                    >
                       View Live Site
-                    </button>
-                    <button className="btn btn-secondary my-10">
+                    </a>
+                    <a
+                      href="https://github.com/ryan-spencer1220/tap-room "
+                      className="btn btn-secondary my-10"
+                      target="_blank"
+                    >
                       View Source Code
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

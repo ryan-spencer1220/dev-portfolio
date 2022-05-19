@@ -49,9 +49,14 @@ const Technologies = () => {
                       </label>
                       <h3 className="text-lg font-bold">React / Redux</h3>
                       <p className="py-4">
-                        You've been selected for a chance to get one year of
-                        subscription to use Wikipedia for free!
+                        React was a core technology featured in the Epicodus
+                        curriculum. Our cohort spent six weeks working with
+                        React, Redux, and FireBase to complete a wide range of
+                        web applications.
                       </p>
+                      <div className="btn-secondary btn">
+                        Check Out A Project!
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -86,13 +91,17 @@ const Technologies = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
-                      </h3>
+                      <h3 className="text-lg font-bold">C# / ASP.NET</h3>
                       <p className="py-4">
-                        You've been selected for a chance to get one year of
-                        subscription to use Wikipedia for free!
+                        The bulk of our Epicodus curriculum was centered around
+                        C# / ASP.NET, the gave me the opportunrity to work with
+                        a strongly-typed language as well as an MVC strucutre.
+                        We created projects utilizing MySQL and full CRUD
+                        functionality.
                       </p>
+                      <div className="btn-secondary btn">
+                        Check Out A Project!
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -127,13 +136,17 @@ const Technologies = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
-                      </h3>
+                      <h3 className="text-lg font-bold">Node.js</h3>
                       <p className="py-4">
-                        You've been selected for a chance to get one year of
-                        subscription to use Wikipedia for free!
+                        While JavaScript has been the primary focus of my tech
+                        snack, it was natural to work primarily with node.js as
+                        a backend language. Node.js has been a focus of several
+                        of my personal coding projects, including building out
+                        databases and creating APIs.
                       </p>
+                      <div className="btn-secondary btn">
+                        Check Out A Project!
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -174,13 +187,16 @@ const Technologies = () => {
                       >
                         ✕
                       </label>
-                      <h3 className="text-lg font-bold">
-                        Congratulations random Interner user!
-                      </h3>
+                      <h3 className="text-lg font-bold">JavaScript</h3>
                       <p className="py-4">
-                        You've been selected for a chance to get one year of
-                        subscription to use Wikipedia for free!
+                        Ultimately JavaScript was the main focus of my time at
+                        Epicodus, we spent four weeks working with plain
+                        JavaScript then build upon those fundamentals during a
+                        six week React Module.
                       </p>
+                      <div className="btn-secondary btn">
+                        Check Out A Project!
+                      </div>
                     </div>
                   </div>
                 </div>

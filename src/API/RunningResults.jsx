@@ -43,9 +43,7 @@ function RunningResults() {
 
       <div className="stat place-items-center">
         <div className="stat-title">Average Distance</div>
-        <div className="stat-value" data-target="2586">
-          0
-        </div>
+        <div className="stat-value2">18.5</div>
         <div className="stat-desc">Average Distance / Week</div>
       </div>
     </div>

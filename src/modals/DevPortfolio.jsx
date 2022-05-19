@@ -1,23 +1,10 @@
 import React from "react";
-import barChart from "../assets/projects/bar-chart.png";
-import weather from "../assets/projects/rain.png";
-import coding from "../assets/projects/web-development.png";
-import github from "../assets/projects/github-sign.png";
-import beer from "../assets/projects/beer-mug.png";
-import quiz from "../assets/projects/quiz.png";
 import { IconContext } from "react-icons";
-import { GoMarkGithub } from "react-icons/go";
-import { GrLinkedin } from "react-icons/gr";
-import { BsMedium } from "react-icons/bs";
-import githubFinder from "../assets/screenshots/github-finder.png";
-import epicodusTaproom from "../assets/screenshots/epicodus-taproom.png";
-import languageQuiz from "../assets/screenshots/language-quiz.png";
-import sortingVisualizer from "../assets/screenshots/sorting-visualizer.png";
-import weatherAPI from "../assets/screenshots/weather-api.png";
 import { SiJavascript } from "react-icons/si";
 import { DiReact } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import DevPortfolio from "../assets/screenshots/dev-portfolio.png";
 
 const GitHubFinder = () => {
   return (
@@ -31,7 +18,7 @@ const GitHubFinder = () => {
                   <h2 className="card-title">Preview</h2>
                   <figure>
                     <img
-                      src={githubFinder}
+                      src={DevPortfolio}
                       alt="Github Logo"
                       height={1060}
                       width={1060}
@@ -84,7 +71,7 @@ const GitHubFinder = () => {
                       }}
                     >
                       <div>
-                        <SiFirebase />
+                        <FaNode />
                       </div>
                     </IconContext.Provider>
                   </div>
@@ -94,31 +81,37 @@ const GitHubFinder = () => {
             <div className="basis-1/2">
               <div className="card bg-base-100 shadow-xl">
                 <div className="card-body items-center">
-                  <h2 className="card-title">GitHub Finder</h2>
+                  <h2 className="card-title">Developer Portfolio</h2>
                   <p>
-                    Full-time student at Epicodus specializing in JavaScript,
-                    React, and C#. Looking for an opportunity to combine my
-                    background in business management with my experience in
-                    software development. Prior to Epicodus I was an active
-                    member of the craft beer industry as the general manager of
-                    Bailey's Taproom in Portland, Oregon. I am a communicative,
-                    detail oriented, team player who presents technical
-                    information effectively with a passion for education and
-                    personal growth. Take a look at my work or get in touch!
+                    This project functioned as my capstone project for Epicodus
+                    and was primarily built with React. Several UI
+                    libaries/frameworks were also used, including Tailwind CSS,
+                    Daisy UI, and Animate.CSS. Users can view various personal
+                    projects I've worked on, reach out with any inquiries, and
+                    learn basic information about me as a developer.
                   </p>
                   <p>
-                    Full-time student at Epicodus specializing in JavaScript,
-                    React, and C#. Looking for an opportunity to combine my
-                    background in business management with my experience in
-                    software development.
+                    My capstone project gave me the opportunity to work
+                    independently on a decent sized project, as well as learn
+                    new technologies outside of the Epicodus curriculum. The
+                    project also demonstrates my ability to work with APIs and
+                    designing an application with design and UX in mind.
                   </p>
                   <div className="grid grid-flow-col gap-4">
-                    <button className="btn btn-secondary my-10">
+                    <a
+                      href="https://en.wikipedia.org/wiki/Recursion"
+                      className="btn btn-secondary my-10"
+                      target="_blank"
+                    >
                       View Live Site
-                    </button>
-                    <button className="btn btn-secondary my-10">
+                    </a>
+                    <a
+                      href="https://github.com/ryan-spencer1220/dev-portfolio"
+                      className="btn btn-secondary my-10"
+                      target="_blank"
+                    >
                       View Source Code
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

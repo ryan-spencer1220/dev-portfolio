@@ -17,20 +17,20 @@ const About = () => {
               <div className="basis-1/2">
                 <div className="card bg-base-100 shadow-xl">
                   <div className="card-body items-center">
-                    <h2 className="card-title">About Me</h2>
+                    <h2 className="card-title">Professional</h2>
                     <p>
-                      Full-time student at Epicodus specializing in JavaScript,
-                      React, and C#. Looking for an opportunity to combine my
-                      background in business management with my experience in
-                      software development. Prior to Epicodus I was an active
-                      member of the craft beer industry as the general manager
-                      of Bailey's Taproom in Portland, Oregon. I am a
-                      communicative, detail oriented, team player who presents
-                      technical information effectively with a passion for
-                      education and personal growth. Take a look at my work or
-                      get in touch!
+                      Prior to Epicodus I was an active member of the craft beer
+                      industry. Working in hospitality was a great opportunity
+                      to develop my communication and problem-solving abilities.
+                      Later I was able to continue to hone these skills as a
+                      digital marketing specialist. In this role I had the
+                      opportunity to work on a small team in a remote
+                      environment and get a glimpse at what it might be like to
+                      work as a developer.
                     </p>
-
+                    <a href="#projects" className="btn btn-secondary">
+                      View Resume
+                    </a>
                     <div className="card-actions justify-end"></div>
                   </div>
                 </div>
@@ -38,22 +38,27 @@ const About = () => {
               <div className="basis-1/2">
                 <div className="card bg-base-100 shadow-xl">
                   <div className="card-body items-center">
-                    <h2 className="card-title">Social Links</h2>
+                    <h2 className="card-title">Educational</h2>
                     <p>
-                      Full-time student at Epicodus specializing in JavaScript,
-                      React, and C#. Looking for an opportunity to combine my
-                      background in business management with my experience in
-                      software development. Prior to Epicodus I was an active
-                      member of the craft beer industry as the general manager
-                      of Bailey's Taproom in Portland, Oregon. I am a
-                      communicative, detail oriented, team player who presents
-                      technical information effectively with a passion for
-                      education and personal growth. Take a look at my work or
-                      get in touch!
+                      While at Epicodus, our time was spent pair programming for
+                      full, eight-hour days. During The first third of our
+                      program, we built a solid understanding of Javascript,
+                      HTML and CSS. Next, we utilized strongly-typed languages
+                      by spending six weeks with C#/.NET Core. Finally, we built
+                      upon the fundamentals we learned in JavaScript by taking a
+                      deep dive into React and Firebase. My conventional post
+                      secondary education lies within Business Management, I
+                      graduated from the Univeristy of Oregon with a B.S. in
+                      business management.
                     </p>
                     <div className="card-actions justify-end"></div>
-                    <a href="#projects" className="btn btn-secondary">
-                      Projects
+
+                    <a
+                      href="https://www.epicodus.com/"
+                      className="btn btn-secondary"
+                      target="_blank"
+                    >
+                      Learn About Epicouds
                     </a>
                   </div>
                 </div>
