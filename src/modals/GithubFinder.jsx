@@ -96,29 +96,35 @@ const GitHubFinder = () => {
                 <div className="card-body items-center">
                   <h2 className="card-title">GitHub Finder</h2>
                   <p>
-                    Full-time student at Epicodus specializing in JavaScript,
-                    React, and C#. Looking for an opportunity to combine my
-                    background in business management with my experience in
-                    software development. Prior to Epicodus I was an active
-                    member of the craft beer industry as the general manager of
-                    Bailey's Taproom in Portland, Oregon. I am a communicative,
-                    detail oriented, team player who presents technical
-                    information effectively with a passion for education and
-                    personal growth. Take a look at my work or get in touch!
+                    GitHub Finder is an application utilizing React, Tailwind
+                    CSS, and Firebase. This project was a component of a third
+                    party React course availble on Udemy. Users can enter a
+                    github user name and return a dashboard with statics about
+                    the user including their avatar, repos, and general personal
+                    information.
                   </p>
                   <p>
-                    Full-time student at Epicodus specializing in JavaScript,
-                    React, and C#. Looking for an opportunity to combine my
-                    background in business management with my experience in
-                    software development.
+                    I thought it might be interesting to showcase this project
+                    since it is a fullstack application and showcases my ability
+                    to work with a database. This project also relies heavily on
+                    the GitHub API and showcases my ability to integrate API
+                    calls into a clean, user-friendly interface.
                   </p>
                   <div className="grid grid-flow-col gap-4">
-                    <button className="btn btn-secondary my-10">
+                    <a
+                      href="https://roaring-palmier-75761b.netlify.app/"
+                      className="btn btn-secondary my-10"
+                      target="_blank"
+                    >
                       View Live Site
-                    </button>
-                    <button className="btn btn-secondary my-10">
+                    </a>
+                    <a
+                      href="https://github.com/ryan-spencer1220/github-finder"
+                      className="btn btn-secondary my-10"
+                      target="_blank"
+                    >
                       View Source Code
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

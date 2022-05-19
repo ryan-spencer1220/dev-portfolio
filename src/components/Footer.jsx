@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p>Copyright © 2022 - All right reserved by Ryan Spencer</p>
+        <p>Copyright © 2022 - Ryan Spencer</p>
       </div>
     </footer>
   );

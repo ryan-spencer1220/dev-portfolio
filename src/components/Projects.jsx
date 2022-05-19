@@ -20,10 +20,10 @@ const Projects = () => {
       >
         <div className="w-full h-screen">
           <div className="mx-32">
-            <h1 className="text-6xl font-bold text-accent m-20 pt-18 text-center underline underline-offset-8">
+            <h1 className="text-6xl font-bold text-accent mt-20 pt-18 text-center underline underline-offset-8">
               Projects
             </h1>
-            <div className="flex flex-col w-full lg:flex-row mt-20">
+            <div className="flex flex-col w-full lg:flex-row mt-20 ">
               <div className="flex flex-col w-full lg:flex-row">
                 <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>

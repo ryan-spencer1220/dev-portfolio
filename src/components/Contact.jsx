@@ -13,45 +13,52 @@ const Contact = () => {
             <h1 className="text-6xl font-bold my-20 pt-18 text-center text-secondary underline underline-offset-8">
               Contact
             </h1>
-            <div class="py-12 card shadow-xl p-20 bg-base-300">
-              <h2 class="text-2xl font-bold mx-10">Get In Touch</h2>
-              <div class="mt-8 max-w-md mx-10">
-                <div class="grid grid-cols-1 gap-6">
-                  <label class="block">
-                    <span class="text-gray-700 block">Name</span>
-                    <input
-                      type="text"
-                      placeholder="Type here"
-                      class="input input-bordered input-info w-full max-w-s"
-                    />
-                  </label>
-                  <label class="block">
-                    <span class="text-gray-700 block">Email</span>
-                    <input
-                      type="text"
-                      placeholder="Type here"
-                      class="input input-bordered input-info w-full max-w-s"
-                    />
-                  </label>
-                  <label class="block">
-                    <span class="text-gray-700 block">Phone Number</span>
-                    <input
-                      type="text"
-                      placeholder="Type here"
-                      class="input input-bordered input-info w-full max-w-s"
-                    />
-                  </label>
-                  <label class="block">
-                    <span class="text-gray-700 block">Message</span>
-                    <input
-                      type="text-area"
-                      placeholder="Type here"
-                      class="input input-bordered input-info w-full max-w-s"
-                    />
-                  </label>
+            <div class="py-12 card shadow-2xl p-20 bg-base-300">
+              <div className="card shadow-2xl p-10 bg-base-100">
+                <h2 class="text-2xl font-bold mx-10 text-secondary">
+                  Get In Touch
+                </h2>
+                <div class="mt-8 max-w-md mx-10">
+                  <div class="grid grid-cols-1 gap-6">
+                    <label class="block">
+                      <span class="text-secondary my-1 block">Name</span>
+                      <input
+                        type="text"
+                        placeholder="Type here"
+                        class="input input-bordered input-info w-full max-w-s"
+                      />
+                    </label>
+                    <label class="block">
+                      <span class="text-secondary my-1 block">Email</span>
+                      <input
+                        type="text"
+                        placeholder="Type here"
+                        class="input input-bordered input-info w-full max-w-s"
+                      />
+                    </label>
+                    <label class="block">
+                      <span class="text-secondary my-1 block">
+                        Phone Number
+                      </span>
+                      <input
+                        type="text"
+                        placeholder="Type here"
+                        class="input input-bordered input-info w-full max-w-s"
+                      />
+                    </label>
+                    <label class="block">
+                      <span class="text-secondary my-1 block">Message</span>
+                      <input
+                        type="text-area"
+                        placeholder="Type here"
+                        class="input input-bordered input-info w-full max-w-s"
+                      />
+                    </label>
+                  </div>
+                  <button className="btn btn-secondary mt-6">Submit</button>
                 </div>
-                <button className="btn btn-secondary mt-6">Submit</button>
               </div>
+              <div className="divider lg:divider-horizontal"></div>
             </div>
           </div>
         </div>

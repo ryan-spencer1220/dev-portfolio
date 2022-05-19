@@ -63,17 +63,24 @@ function Header({ Component, pageProps }) {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <p>Homepage</p>
-            </li>
-            <li>
-              <p>Portfolio</p>
-            </li>
-            <li>
               <p>About</p>
+            </li>
+            <li>
+              <p>Hobbies</p>
+            </li>
+            <li>
+              <p>Technologies</p>
+            </li>
+            <li>
+              <p>Projects</p>
+            </li>
+            <li>
+              <p>Contact</p>
             </li>
           </ul>
         </div>
       </div>
+
       <div className="navbar-center">
         <p className="btn btn-ghost normal-case text-xl">Ryan Spencer</p>
       </div>

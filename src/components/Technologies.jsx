@@ -55,7 +55,7 @@ const Technologies = () => {
                     </div>
                   </div>
                 </div>
-                <div className="divider lg:divider-horizontal"></div>
+                <div className="divider lg:divider-horizontal mt-100"></div>
                 <div className="grid flex-grow h-72 w-72 card bg-base-300 rounded-box place-items-center shadow-2xl">
                   <figure>
                     <img
@@ -140,7 +140,7 @@ const Technologies = () => {
               </div>
             </div>
 
-            <div className="divider mt-20"></div>
+            <div className="divider"></div>
 
             <div className="flex flex-col w-full lg:flex-row mt-20">
               <div className="flex flex-col w-full lg:flex-row">

@@ -6,7 +6,7 @@ body {
   font-family: Poppins;
 }
 
-.card:hover {
+.card-small:hover {
   transform: scale(1.1);
 }
 
